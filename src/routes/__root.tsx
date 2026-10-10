@@ -93,7 +93,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:site_name", content: "Leo's Cutz" },
       { property: "og:image", content: "https://leoscutz.vercel.app/og.jpg" },
-      { name: "twitter:image", content: "hhttps://leoscutz.vercel.app/og.jpg" },
+      { name: "twitter:image", content: "https://leoscutz.vercel.app/og.jpg" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
